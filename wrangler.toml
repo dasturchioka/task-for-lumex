@@ -1,0 +1,16 @@
+name = "job-application-form"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[env.production]
+routes = [
+  { pattern = "jobapp.workers.dev", custom_domain = true }
+]
+
+# Workers secrets (use wrangler secret put <KEY>)
+# - NEXT_PUBLIC_SUPABASE_URL
+# - NEXT_PUBLIC_SUPABASE_ANON_KEY
+# - SUPABASE_SERVICE_ROLE_KEY
+# - GEMINI_API_KEY
+# - SESSION_SECRET
+

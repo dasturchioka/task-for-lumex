@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+/.next/
+/out/
+/build/
+
+# Testing
+/coverage
+/playwright-report
+/test-results
+
+# Cloudflare
+.wrangler/
+
