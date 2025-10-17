@@ -43,17 +43,6 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 SESSION_SECRET=generate-a-random-32-character-string-here
 ```
 
-You can use these for reviewing:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL="https://rmrgwedrxqxlgymjqvzx.supabase.co"
-NEXT_PUBLIC_SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJtcmd3ZWRyeHF4bGd5bWpxdnp4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA2OTA3MDcsImV4cCI6MjA3NjI2NjcwN30.thcOFrylr661iKQQHcfreWw1Xo8bqB_PNf5enu1D8p8"
-SUPABASE_SERVICE_ROLE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJtcmd3ZWRyeHF4bGd5bWpxdnp4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDY5MDcwNywiZXhwIjoyMDc2MjY2NzA3fQ.AcqL8eKon66gtHX-9UsIO2TYoBL8DfQFdvYbSt6kvjA"
-GEMINI_API_KEY="AIzaSyBmtx_AR8SW-zkUgNlCPPhvVt_SiZM0rxc"
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-SESSION_SECRET="d978ec2426b71341573e72a3d77b93d453aeb91161f6d4b2e323f64f12de2ec1
-```
-
 **Generate SESSION_SECRET:**
 ```bash
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
